@@ -1,0 +1,211 @@
+{
+    "phrases": {
+        "dashboard": {
+            "tabs": {
+                "general": {
+                    "name": "General",
+                    
+                    "online": {
+                        "title": "Online",
+                        "data": ":online:/:max:"
+                    },
+                    "totalMoney": {
+                        "title": "Créditos totales"
+                    },
+                    "jobDistribution": {
+                        "title": "Trabajadores"
+                    },
+                    "richestPlayer": {
+                        "title": "Adinerados",
+                        "economy": ":percentage:% of economy"
+                    }
+                },
+                "economy": {
+                    "name": "Gráfico económico",
+                    "noData": "No Data",
+                    "days": [
+                        "Hoy",
+                        "Hace 1 día",
+                        "Hace 2 días",
+                        "Hace 3 días",
+                        "Hace 4 días",
+                        "Hace 5 días",
+                        "Hace 6 días"
+                    ]
+                }
+            },
+            "favouriteJobs": {
+                "title": "Trabajos favoritos",
+                "none": "No existen"
+            },
+            "onlineStaff": {
+                "title": "Administradores online",
+                "none": "No hay administradores"
+            }
+        },
+        "jobs": {
+            "top": {
+                "search": "Buscar por nombre de trabajo",
+                "sort": {
+                    "default": "Orden básico",
+                    "alphabetically": "Alfabético",
+                    "highestSalary": "Salario más alto",
+                    "lowestSalary": "Salario más bajo",
+                    "mostPeople": "Más personas",
+                    "leastPeople": "Menos personas"
+                },
+                "showRecentJobs": "Mostrar trabajos recientes",
+                "showFavouriteJobs": "Mostrar trabajos favoritos"
+            },
+            "slideout": {
+                "tabs": {
+                    "description": "DESCRIPCIÓN",
+                    "weapons": "ARMAMENTO",
+                    "ranks": "RANGOS"
+                },
+                "levelRequirement": "Level: :level:",
+                "prestigeRequirement": "Prestige: :prestige:",
+                "donatorJob": "Trabajo de Donador",
+                "button": {
+                    "become": "FORMAR PARTE",
+                    "areThisJob": "YA ERES PARTE",
+                    "jobIsFull": "EL TRABAJO ESTÁ LLENO",
+                    "customCheckFailed": "ALGO FALLÓ",
+                    "tooLowLevel": "LEVEL DEMASIADO BAJO",
+                    "tooLowPrestige": "PRESTIGIO DEMASIADO BAJO"
+                },
+                "anHour": "/h",
+                "ranks": {
+                    "title": "Rangos que pueden formar parte"
+                }
+            },
+            "favouriteJobs": "Trabajos favoritos",
+            "recentJobs": "Trabajos recientes",
+            "salary": "Salario: :money:"
+        },
+        "items": {
+            "tabs": {
+                "entities": "ENTIDADES",
+                "weapons": "ARMAMENTO",
+                "shipments": "CARGAMENTO",
+                "ammo": "MUNICIÓN",
+                "vehicles": "VEHÍCULOS",
+                "food": "COMIDA"
+            },
+            "food": {
+                "categoryName": "Comida"
+            },
+            "vehicles": {
+                "categoryName": "Vehículos"  
+            },
+            "top": {
+                "search": "Buscar por nombre",
+                "sort": {
+                    "default": "Órden básico",
+                    "alphabetically": "Alfabético",
+                    "highestPrice": "Precio más alto",
+                    "lowestPrice": "Precio más bajo"
+                },
+                "showFavourite": "Buscar favoritos"
+            },
+            "favourites": "Favoritos"
+        },
+        "options": {
+            "general": {
+                "name": "General",
+                
+                "dropMoney": {
+                    "name": "Tirar créditos",
+                    "desc": "Cantidad que quieres tirar",
+                    "placeholder": "$1000"
+                },
+                "giveMoney": {
+                    "name": "Dar créditos",
+                    "desc": "Cantidad que quieres regalar",
+                    "placeholder": "$1000"
+                },
+                "changeName": {
+                    "name": "Cambiarse el nombre",
+                    "desc": "Escribe el nombre que quieres tener",
+                    "placeholder": "Nombre"
+                },
+                "changeJobTitle": {
+                    "name": "Cambiar el nombre del trabajo",
+                    "desc": "Escribe el nombre que quieres tener",
+                    "placeholder": "Título"
+                },
+                "requestGunLicense": {
+                    "name": "Request Gun License"
+                },
+                "sellAllDoors": {
+                    "name": "Sell All Doors"
+                },
+                "dropWeapon": {
+                    "name": "Drop Weapon"
+                },
+                "cheque": {
+                    "name": "Cheque",
+                    "desc": "Write a cheque to a specific player",
+                    "amount": "$1000"
+                }
+            },
+            "mayor": {
+                "name": "Mayor",
+                
+                "startLockdown": { 
+                    "name": "Start Lockdown"
+                },
+                "stopLockdown": {
+                    "name": "Stop Lockdown"
+                },
+                "giveLicense": {
+                    "name": "Give License"
+                },
+                "addLaw": {
+                    "name": "Add Law",
+                    "desc": "Add a law",
+                    "placeholder": "Law"
+                },
+                "removeLaw": {
+                    "name": "Remove Law",
+                    "desc": "Remove a law",
+                    "placeholder": "Law"
+                },
+                "resetLaws": {
+                    "name": "Reset Laws"
+                },
+                "placeLawboard": {
+                    "name": "Place Lawboard"
+                },
+                "broadcastToCity": {
+                    "name": "Broadcast to the city",
+                    "desc": "What message would you like to broadcast?",
+                    "placeholder": "Message"
+                },
+                "startLottery": {
+                    "name": "Start Lottery",
+                    "desc": "How much money to enter the lottery?",
+                    "placeholder": "$1000"
+                }
+            },
+            "police": {
+                "name": "Police",
+                
+                "wanted": {
+                    "name": "Make Wanted",
+                    "desc": "Write the reason & select a player",
+                    "placeholder": "Reason"
+                },
+                "warrant": {
+                    "name": "Make a warrant",
+                    "desc": "Write the reason & select a player",
+                    "placeholder": "Reason"
+                },
+                "unwarrant": {
+                    "name": "Remove a warrant",
+                    "desc": "Select a player"
+                }
+            }
+        }
+    }
+}
